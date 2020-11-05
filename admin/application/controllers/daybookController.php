@@ -99,6 +99,39 @@ function getdata(){
     $this->load->view("includes/mainContent", $data);
      
 }
+function dBookDetail(){
+
+    $data['pageTitle'] = 'Daybook Detail';
+    $data['smallTitle'] = 'Daybook Detail';
+    $data['mainPage'] = 'Daybook Detail';
+    $data['subPage'] = 'Daybook Detail';
+    $data['title'] = 'Daybook Detail';
+    $data['headerCss'] = 'headerCss/customerlistcss';
+    $data['footerJs'] = 'footerJs/customerlistjs';
+    $data['mainContent'] = 'admin/dBookDetail';
+    $this->load->view("includes/mainContent", $data);
+
+}
+function dayBookReport(){
+    $sdate = $this->input->post("sdate");
+    $edate = $this->input->post("edate");
+    $q  = $this->input->post("type");
+    $data['sdate']=$sdate;
+    $data['edate']=$edate;
+    $data['q']=$q;
+    $this->load->model('daybook');
+    $gdbd=$this->daybook->getdaybookByDate($sdate,$edate,$q);
+    $data['gdbd']=$gdbd;
+    $data['pageTitle'] = 'Daybook Detail';
+    $data['smallTitle'] = 'Daybook Detail';
+    $data['mainPage'] = 'Daybook Detail';
+    $data['subPage'] = 'Daybook Detail';
+    $data['title'] = 'Daybook Detail';
+    $data['headerCss'] = 'headerCss/customerlistcss';
+    $data['footerJs'] = 'footerJs/customerlistjs';
+    $data['mainContent'] = 'admin/dayBookReport';
+    $this->load->view("includes/mainContent", $data);
+}
 
 }
 ?>
