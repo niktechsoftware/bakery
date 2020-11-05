@@ -45,9 +45,7 @@
 		$data['mainContent'] = "chaanan/editcod";
 		$this->load->view("includes/mainContent", $data);
 	}
-	
-	
-	
+	 
 	
 	public	function addprofile(){
 		$data['subPage'] = 'Profile';
@@ -60,7 +58,84 @@
 		$this->load->view("include/admin/mainContent", $data);
 	}
 	
-function profile(){
+	function getSubject(){
+		$subid = $this->input->post("subid");
+		//echo $subid;
+		//exit();
+		$this->db->where("id",$subid);
+		$vt = $this->db->get("product_category");
+		?><option value="">-Select Category-</option>
+		<?php foreach($vt->result() as $v):?>
+		<option value="<?php echo $v->id;?>"><?php echo $v->category;?></option>
+		<?php endforeach;
+	}
+	function getsubcategory(){
+		$pname = $this->input->post("pname");
+		//echo $pname;
+	//exit();
+		$this->db->where("name",$pname);
+		$vt = $this->db->get("stock_products");
+//echo $vt->row()->sub_category;
+		$this->db->where("id",$vt->row()->sub_category);
+		$vt1=$this->db->get('sub_category');
+		?><option value="">-Select subcategory-</option>
+		<?php foreach($vt1->result() as $v1):?>
+		<option value="<?php echo $v1->id;?>"><?php echo $v1->name;?></option>
+		<?php endforeach;
+
+	}
+
+	function getcategory(){
+		$subid = $this->input->post("subid");
+		//echo $subid;
+	//exit();
+		$this->db->where("id",$subid);
+		$vt = $this->db->get("sub_category");
+		//echo $vt->row()->cat_id;
+		$this->db->where("id",$vt->row()->cat_id);
+		$vt1=$this->db->get("product_category");
+		?><option value="">-Select subcategory-</option>
+		<?php foreach($vt1->result() as $v1):?>
+		<option value="<?php echo $v1->id;?>"><?php echo $v1->category;?></option>
+		<?php endforeach;
+		
+	}
+
+function searchproduct(){
+		$keyword = '%'.$this->input->post("keyword").'%';
+		//echo $keyword;
+		
+    	$sql = "SELECT * FROM stock_products  ORDER BY name ASC LIMIT 0, 10";
+    	$query = $this->db->query($sql);
+    	foreach ($query->result() as $rs) {
+    		// put in bold the written text
+    		//$country_name = str_replace($this->input->post("keyword"), '<b>'.$this->input->post("keyword").'</b>', $rs->name);
+    		// add new option
+    		echo '<li onclick="set_item(\''.str_replace("'", "\'", $rs->name).'\')"><a href="#javascript();">'.$rs->name.'</a></li>';
+    	}
+	}
+
+
+
+	function getTotQ(){
+	    $hsn_sac = $this->input->post("subid");
+	    //$company_name = $this->input->post("subjectid");
+	    $name = $this->input->post("itamName");
+	    
+		$rows = $this->db->query("SELECT   sub_category, quantity, selling_price1 FROM `stock_products` WHERE `sub_category`='".$hsn_sac."' AND `name`='".$name."' ;")->result();
+		
+		$queryString = "SELECT SUM(`quantity`) AS `quantity`  FROM `stock_products` WHERE `sub_category`='".$hsn_sac."' AND `name`='".$name."';";
+		$oldQuantity = $this->db->query($queryString)->result();
+		$actualq = $oldQuantity[0]->quantity;
+		
+		$dataArray = array(
+		    'otherData' => $rows,
+		    'quantity' => $actualq
+		);
+		echo json_encode($dataArray);
+	}
+
+public function profile(){
 		$data['subPage'] = 'Profile';
 		$data['smallTitle'] = 'Profile';
 		$data['bigTitle'] = 'Your Profile';
@@ -126,7 +201,15 @@ function profile(){
 		$data['mainContent'] = "chaanan/product_entry";
 		$this->load->view("includes/mainContent",$data);
 	}
-
+	public function billEntry(){
+ 		$data['title'] = " Bill  Entry";
+		$data['smallTitle'] = "Bill  Entry";
+		$data['bigTitle'] = "Bill Entry";
+		$data['headerCss'] = 'headerCss/customerlistcss';
+		$data['footerJs'] = 'footerJs/customerlistjs';
+		$data['mainContent'] = "chaanan/billEntry";
+		$this->load->view("includes/mainContent",$data);
+		}
 
 
 
