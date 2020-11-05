@@ -38,6 +38,21 @@
                
               </ul>
             </li>
+             <li class="dropdown">
+              <a href="#" class="nav-link has-dropdown"><i data-feather="mail"></i><span>Sale</span></a>
+              <ul class="dropdown-menu">
+               <li><a class="nav-link" href="<?php echo base_url();?>index.php/Bill_controller/saleProduct">Sale Product</a></li>
+                <li><a class="nav-link" href="#">Return Product</a></li>
+                <!-- <li><a class="nav-link" href="<?php echo base_url();?>index.php/Bill_controller/sBillHistory">Sale Bill History</a></li>-->
+              </ul>
+            </li>
+             <li class="dropdown">
+              <a href="#" class="nav-link has-dropdown"><i data-feather="mail"></i><span>Daybook</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="<?php echo base_url();?>index.php/daybookController/dBookDetail">Daybook Detail</a></li>
+               
+              </ul>
+            </li>
             
          <!--   <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i data-feather="copy"></i><span>Website</span></a>
