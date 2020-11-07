@@ -22,10 +22,10 @@
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                     <div class="ps-contact__info">
                       <div class="ps-contact__block">
-                        <h4>OFFICE AT AMERICA</h4>
-                        <p><strong>BASEMENT COMPANY, NEW YORK</strong></p>
+                        <h4>Classic Bakery </h4>
+                        <p><strong>79/107 Bashmandi Kanpur </strong></p>
                         <p><i class="fa fa-envelope-o"></i><a href="http://nouthemes.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b9dcd7c8ccd0cbc0f9dbd8d2dccbc097dad6d4">[email&#160;protected]</a></p>
-                        <p><i class="fa fa-phone"></i>+1 650-253-0000</p>
+                        <p><i class="fa fa-phone"></i>+91 8423459643, 8303273868</p>
                             <ul class="ps-contact__social">
                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -33,10 +33,10 @@
                             </ul>
                       </div>
                       <div class="ps-contact__block">
-                        <h4>OFFICE AT PARIS</h4>
-                        <p><strong>189/32 BASEMENT COMPANY, PARIS, FRANCE</strong></p>
+                        <h4>Classic Sopee and Travells </h4>
+                        <p><strong>105/215 Jubli Road Chamanganj Kanpur </strong></p>
                         <p><i class="fa fa-envelope-o"></i><a href="http://nouthemes.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6d08031c18041f142d0f0c06081f14430e0200">[email&#160;protected]</a></p>
-                        <p><i class="fa fa-phone"></i>+1 650-253-0000</p>
+                        <p><i class="fa fa-phone"></i>+91 7408436444,9389044449</p>
                             <ul class="ps-contact__social">
                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -44,10 +44,10 @@
                             </ul>
                       </div>
                       <div class="ps-contact__block">
-                        <h4>OFFICE AT VIETNAM</h4>
-                        <p><strong>189/32 BASEMENT COMPANY, PARIS, FRANCE</strong></p>
+                        <h4>Classic Travells</h4>
+                        <p><strong>88/493 Haleem College Chauraha Chamanganj Kanpur</strong></p>
                         <p><i class="fa fa-envelope-o"></i><a href="http://nouthemes.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fb9e958a8e928982bb999a909e8982d5989496">[email&#160;protected]</a></p>
-                        <p><i class="fa fa-phone"></i>+1 650-253-0000</p>
+                        <p><i class="fa fa-phone"></i>+91 9598500012,7408436444</p>
                             <ul class="ps-contact__social">
                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>

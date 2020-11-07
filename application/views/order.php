@@ -43,7 +43,7 @@
                         <option value="1">4</option>
                         <option value="5">5</option>
                       </select>
-                      <p class="ps-product__price">£15.00 <del>£25.00</del></p><a class="ps-product__quickview popup-modal" href="#quickview-modal" data-effect="mfp-zoom-out">QUICK OVERVIEW</a>
+                      <p class="ps-product__price">₹15.00 <del>₹25.00</del></p><a class="ps-product__quickview popup-modal" href="#quickview-modal" data-effect="mfp-zoom-out">QUICK OVERVIEW</a>
                       <div class="ps-product__description">
                         <p>Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate. Cupcake sweet roll sweet dragée dragée. Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate cake.</p>
                         <p>Toffee chocolate cake apple pie sugar plum sesame snaps muffin cake pudding cupcake. Muffin danish muffin lollipop biscuit jelly beans oat cake croissant.</p>

@@ -19,13 +19,13 @@
           <div class="row">
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 ">
                   <div class="ps-section__header text-center">
-                    <div class="ps-section__top">Our Baker</div>
-                    <h3 class="ps-section__title">Ms. Velvet Vanilla</h3>
+                    <div class="ps-section__top">Owner</div>
+                    <h3 class="ps-section__title">Mr. Danish Haneef</h3>
                   </div>
                   <div class="ps-section__content text-center">
-                    <p>“Soufflé danish gummi bears tart. Pie wafer icing. Gummies jelly beans powder. Chocolate bar pudding macaroon candy canes chocolate apple pie chocolate cake. Sweet caramels sesame snaps halvah bear claw wafer. Sweet roll soufflé muffin topping muffin brownie…”</p>
-                    <div class="ps-about__sign text-center mb-30 mt-40"><img src="<?php echo base_url();?>assets/images/about/img-signature.png" alt=""></div>
-                    <p class="ps-about-sign">CEO - Vanila Bakery Shop</p>
+                    <p>“ I am delighted to share that we have acted upon on our strategy and this, in turn has enabled us to deliver an impressive domestic performance. We have gained immense respect in the market as a Manufacturer, Supplier, Trader and Exporter.The ingredients and natural aromatic essence that are used in the manufacturing of these products are tested by our quality analysts.We acquire the ingredients from established and reliable vendor base”</p>
+                    <div class="ps-about__sign text-center mb-30 mt-40"><img src="#" alt=""></div>
+                    <p class="ps-about-sign">CEO - Classic Bakery Shop</p>
                   </div>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 "><img src="<?php echo base_url();?>assets/images/about/about-intro.png" alt="">

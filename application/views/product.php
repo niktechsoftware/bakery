@@ -82,7 +82,7 @@
                                 <option value="1">4</option>
                                 <option value="5">5</option>
                               </select>
-                              <p class="ps-product__price">£5.00</p>
+                              <p class="ps-product__price">₹5.00</p>
                             </div>
                           </div>
                         </div>
@@ -106,7 +106,7 @@
                                 <option value="1">4</option>
                                 <option value="5">5</option>
                               </select>
-                              <p class="ps-product__price">£5.00</p>
+                              <p class="ps-product__price">₹5.00</p>
                             </div>
                           </div>
                         </div>
@@ -131,7 +131,7 @@
                                 <option value="1">4</option>
                                 <option value="5">5</option>
                               </select>
-                              <p class="ps-product__price"><del> £10.00</del> £5.00</p>
+                              <p class="ps-product__price"><del> ₹10.00</del> ₹5.00</p>
                             </div>
                           </div>
                         </div>
@@ -155,7 +155,7 @@
                                 <option value="1">4</option>
                                 <option value="5">5</option>
                               </select>
-                              <p class="ps-product__price">£5.00</p>
+                              <p class="ps-product__price">₹5.00</p>
                             </div>
                           </div>
                         </div>
@@ -180,7 +180,7 @@
                                 <option value="1">4</option>
                                 <option value="5">5</option>
                               </select>
-                              <p class="ps-product__price"><del> £10.00</del> £5.00</p>
+                              <p class="ps-product__price"><del> ₹10.00</del> ₹5.00</p>
                             </div>
                           </div>
                         </div>
@@ -204,7 +204,7 @@
                                 <option value="1">4</option>
                                 <option value="5">5</option>
                               </select>
-                              <p class="ps-product__price">£5.00</p>
+                              <p class="ps-product__price">₹5.00</p>
                             </div>
                           </div>
                         </div>
@@ -271,7 +271,7 @@
                                     <div class="ps-product__content">
                                       <h4 class="ps-product__title"><a href="product-detail.html">Amazin’ Glazin’</a></h4>
                                       <p class="ps-product__price">
-                                        <del>£25.00</del>£15.00
+                                        <del>₹25.00</del>₹15.00
                                       </p><a class="ps-btn ps-btn--xs" href="product-detail.html">Purchase</a>
                                     </div>
                                   </div>
@@ -280,7 +280,7 @@
                                     <div class="ps-product__content">
                                       <h4 class="ps-product__title"><a href="product-detail.html">The Crusty Croissant</a></h4>
                                       <p class="ps-product__price">
-                                        <del>£25.00</del>£15.00
+                                        <del>₹25.00</del>₹15.00
                                       </p><a class="ps-btn ps-btn--xs" href="product-detail.html">Purchase</a>
                                     </div>
                                   </div>
@@ -289,7 +289,7 @@
                                     <div class="ps-product__content">
                                       <h4 class="ps-product__title"><a href="product-detail.html">The Rolling Pin</a></h4>
                                       <p class="ps-product__price">
-                                        <del>£25.00</del>£15.00
+                                        <del>₹25.00</del>₹15.00
                                       </p><a class="ps-btn ps-btn--xs" href="product-detail.html">Purchase</a>
                                     </div>
                                   </div>

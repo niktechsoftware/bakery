@@ -106,7 +106,7 @@
         <div class="container">
           <div class="row">
                 <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 ">
-                  <p>Becongunj Kanpur- phone No- 7408436444</p>
+                  <p>79/107 Bashmandi Kanpur- phone No- 7408436444, 8423459643</p>
                 </div>
                 <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 "><a class="ps-search-btn" href="#"><i class="ps-icon--search"></i></a>
                   <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD<i class="fa fa-angle-down"></i></a>

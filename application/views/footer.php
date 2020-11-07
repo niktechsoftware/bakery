@@ -23,8 +23,8 @@
                       <h3 class="ps-widget__title">WORK TIME</h3>
                     </div>
                     <div class="ps-widget__content">
-                      <p><strong>Monday - Friday</strong> 8:00 am - 8:30 pm</p>
-                      <p><strong>Satuday - Sunday</strong>10:00 am - 16:30 pm</p>
+                      <p><strong>Monday - Friday</strong> 8:00 am - 10:30 pm</p>
+                      <p><strong>Satuday - Sunday</strong>10:00 am - 10:30 pm</p>
                     </div>
                   </div>
                 </div>
@@ -55,7 +55,7 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                           </ul><a href="#"><img src="<?php echo base_url();?>assets/images/app.jpg" alt=""></a>
-                      <p>@2020 Design by<a href="#"> Niktech Software Solutions</a>.</p>
+                      <p>@2020 Design by<a href="https://www.schoolerp-niktech.in/"> Niktech Software Solutions</a>.</p>
                     </div>
                   </div>
                 </div>
