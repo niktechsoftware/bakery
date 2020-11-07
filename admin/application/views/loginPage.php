@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Chaanan Admin Panel</title>
+  <title>Classic Bakery Admin Panel</title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/app.min.css">
   <link rel="stylesheet" href="<?php echo base_url();?>assets/bundles/bootstrap-social/bootstrap-social.css">
@@ -26,7 +26,7 @@
           <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
             <div class="card card-primary">
               <div class="card-header">
-                <h4>Login in Chaanan Admin Panel.</h4>
+                <h4>Login in Classic Bakery Admin Panel.</h4>
               </div>
               <div class="card-body">
                 <form method="POST" action="<?php echo base_url();?>index.php/welcome/login_check" class="needs-validation" novalidate="">

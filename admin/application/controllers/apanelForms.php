@@ -15,6 +15,61 @@ class ApanelForms extends CI_Controller{
 	}
 //-------------------------------------------------------------------------------------------------------------------------	
 	//zorba ----------
+	function enterBill(){
+
+
+/*$hsn_sac=$this->input->post("product_quantity");
+echo $product_quantity;
+echo $freight;
+echo $discount;
+echo $total_prize;
+echo $dealar_mobile1;
+
+echo $dealar_mobile2;
+echo $dealer_email;
+
+echo $product_company_name;
+
+echo $product_quantity;
+
+echo $product_quantity;*/
+$data=array(
+
+'product_quantity'=>$this->input->post("product_quantity"),
+'tpcostin'=>$this->input->post("total_prize"),
+'vatper'=>$this->input->post("vatper"),
+'satper'=>$this->input->post("satper"),
+'round_off'=>$this->input->post("roff"),
+'freight'=>$this->input->post("freight"),
+'discount'=>$this->input->post("discount"),
+'total_prize'=>$this->input->post("total_prize"),
+'dealar_mobile1'=>$this->input->post("mobile"),
+'dealar_mobile2'=>$this->input->post("mobile2"),
+'dealer_email'=>$this->input->post("company_email"),
+'dealer_address'=>$this->input->post("daddress"),
+'product_company_name'=>$this->input->post('companyName'),
+'reff_bil_num'=>$this->input->post("billNumber"),
+'amount_paid'=>$this->input->post("amount_paid"),
+'balance'=>$this->input->post("balance"),
+'pay_mode'=>$this->input->post("payMode"),
+'discription'=>$this->input->post("discount"),
+'date1'=>$this->input->post("billDate"),
+
+'Gst'=>$this->input->post("gst"),
+'statecode'=>$this->input->post("stcode"),
+'emailid'=>$this->input->post("emailid")
+
+);
+
+if($this->db->insert("bill_info",$data))
+{
+	redirect("apanel/billEntry/success");
+}else
+{
+	redirect("apanel/billEntry/false");
+}
+
+	}
 	
 	function createCategory(){
 	   $this->load->library('image_lib');
@@ -210,6 +265,8 @@ class ApanelForms extends CI_Controller{
 	    
         	
 	}}
+
+
 
 function addproduct(){
 		   
